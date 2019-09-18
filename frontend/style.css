@@ -1,0 +1,87 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    background-color: #895936;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo{
+    margin: 20px;
+    border: 0px;
+    padding: 0px;
+    float: left;
+    text-align: left;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.header-link {
+    margin: 20px;
+    border: 0px;
+    padding: 0px;
+    float: right;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+    
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+input {
+    background: rgba(196, 196, 196, 0.47);
+    border-radius: 50px;
+    width: 450px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    text-align: 10px;
+    
+}
+
+#submit {
+    background: rgba(4, 4, 4, 0.7);
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#username, #password {
+    text-indent: 7%;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.register-btn {
+    background: #040404;
+    border-radius: 50px;
+    width: 450px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 45px;
+    border: none;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.login-aside {
+	margin-left: 70px;
+}
