@@ -65,7 +65,7 @@ input {
     font-family: 'Red Hat Text', sans-serif;
 }
 
-#username, #password {
+#username, #password, #name, #email, #phone-number {
     text-indent: 7%;
     font-family: 'Red Hat Text', sans-serif;
 }
