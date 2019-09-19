@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html>
     <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" type="text/css" href="style.css">
             <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
         <title>
-            Register Page
+            <Register Page
         </title>
     </head>
     <body>
         <header>
-            <nav class="header-con">
+		<div class="navigation">
+            <nav class="header-con" >
                 <a href="#Home" class="header-logo">
                 The Internship
                 </a>
@@ -18,42 +18,42 @@
                 <a href="#Login" class="header-link">
                     Login
                 </a>
-                <a href="#About" class="header-link">
-                    About Program
-                </a>
                 <a href="#Register" class="header-link">
                     Register
                 </a>
-                <a href="#Contact" class="header-link">
-                    Contact
-                </a>
                 
             </nav>
+			</div>
         </header>
+		
         <section>
 
         <main>
-            <p class="main-header">Register For The Internship Program</p>
-                <form >
+		
+			<div align="center">
+			<div id="head">
+            <p align="center"><h2>Register For The Internship Program</h2></p>
+			</div>
+				<div id="register">
+					<form>
+						<div class="details">
+						<input type="text" name="name" id="name" placeholder="Name (First and Last)" required><br>
+						<input type="text" name="Username" id="Username" placeholder="Username" required><br>
                     
-                    <input type="text" name="name" id="name" placeholder="Name (First and Last)"><br>
-                    <input type="text" name="username" id="username" placeholder="Username"><br>
+						<input type="email" name="Email" id="email" placeholder="Email Address" required><br>
+						<input  name="Phone number" id="phone-number" placeholder="Phone Number" required><br>
                     
-                    <input type="email" name="email" id="email" placeholder="Email Address"><br>
-                    <input type="number" name="phoneno" id="phone-number" placeholder="Phone Number"><br>
-                    
-                    <input type="password" name="password" id="password" placeholder="Password"><br>
-                   
-                    <input type="submit" id="submit" value="Register">
-                  </form>
+						<input type="password" name="password"  placeholder="Password" required><br>
+						</div>
+						</form>
+						<br>
+				  		<button id="submit" type="button">Register</button>
+						<br>
+						<a href= "" align= "center" class="register-btn" type="button">Already have an account?</a>
+					</div> 
+			 </div>
         </main>
-
-            <a href="index.html">
-                <button class="register-btn" type="button">Already have an account?</button>
-            </a>
-            
-
-        
+       
     </section>
 
 
