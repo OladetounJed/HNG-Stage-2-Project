@@ -1,0 +1,147 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+	background-color: black;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+	margin:-10px;	
+}
+
+.header-logo{
+    margin: 15px;
+    border: 0px;
+    padding-left: 30px;
+    float: left;
+    text-align: left;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+	color : white;
+}
+.header-link {
+    margin: 15px;
+    border: 0px;
+    padding: 0px;
+    float: right;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    padding-right: 30px;
+    
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+input {
+	background: none;
+    width: 280px;
+    height: 5px;
+    margin: 10px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-color: #c9c9c9;
+	border-bottom-width: 0.5px;
+    text-align: 10px;
+	padding: 10px;
+	padding-left: -5px;
+    color: #c9c9c9;
+}
+
+main {
+	border-radius: 40px;
+}
+
+#head {
+	color: white;
+	margin-left: 10px;
+}
+#submit {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding:10px; 
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+	border: none;
+    background: black;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+	cursor: pointer;
+}
+
+#username, #password {
+	margin: 35px;
+	color: black;
+    text-indent: 3%;
+    font-family: 'Red Hat Text', sans-serif;
+	margin-left: 12px;
+}
+
+.register-btn {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding:10px; 
+    border-radius: 50px;
+	border: none;
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+	font-size:15px;
+	background: black;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+	cursor: pointer;
+	
+}
+
+#login {
+	background-color: white ;
+    border-radius: 25px;
+    width: 320px;
+    height: 390px;
+    margin: 10px;
+    border: none;
+    text-align: 12px;
+	padding: 10px;
+    padding-top:2px;	
+}
+
+.navigation{
+	background: black;
+	height: 45px;	
+}
+
+.login-aside{
+	margin-left: 10px;
+	color: black;
+	font-family: 'Red Hat Text', sans-serif;
+}
+
+input.box {
+	width: 10px;
+	height: 11px;
+}
